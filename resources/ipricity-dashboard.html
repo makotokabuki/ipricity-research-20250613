@@ -9,7 +9,6 @@ body {
   font-family: 'Yomogi', 'Zen Kurenaido', 'Kaisei Decol', sans-serif;
   background: #fdfdfc;
   margin: 0;
-  display: flex;
 }
 nav {
   width: 200px;
@@ -17,6 +16,11 @@ nav {
   color: #fff;
   padding: 20px;
   box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
 }
 nav h1 {
   font-size: 20px;
@@ -34,8 +38,10 @@ nav a {
   text-decoration: none;
 }
 main {
-  flex-grow: 1;
+  margin-left: 200px;
+  height: 100vh;
   padding: 20px;
+  overflow-y: auto;
 }
 h2 {
   border-bottom: 2px solid #1e40af;
