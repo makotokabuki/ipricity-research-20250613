@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>iPricity グラフィックレコーディング</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Yomogi&family=Zen+Kurenaido&display=swap');
+body {
+  font-family: 'Yomogi', 'Zen Kurenaido', 'Kaisei Decol', sans-serif;
+  background: #fdfdfc;
+  margin: 0;
+  padding: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  background: linear-gradient(90deg,#F24405,#F25C05);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 0;
+}
+.subtitle {
+  font-size: 16px;
+  color: #475569;
+}
+.columns {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.column {
+  width: 33%;
+}
+.card {
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(5px);
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 18px;
+  color: #1e40af;
+  margin-top: 0;
+}
+p, li {
+  font-size: 14px;
+  color: #334155;
+  line-height: 1.4;
+}
+.keyword {
+  text-decoration: underline;
+  text-decoration-color: #F2C53D;
+}
+footer {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #475569;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>アイプリシティ最新情報</h1>
+  <div class="subtitle">2025/06/13 日本ビジネスシステムズ調査</div>
+</header>
+<div class="columns">
+  <div class="column">
+    <div class="card">
+      <h2>製品概要・主な機能 ✏️</h2>
+      <ul>
+        <li>企業内で安全に使えるChatGPTサービス</li>
+        <li>文章生成・要約・翻訳などを提供</li>
+        <li>管理・ログ機能でセキュリティ確保</li>
+        <li>RAG機能で社内ファイルを参照し回答</li>
+        <li>JBS社内で全社員利用</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>提供形態・技術基盤 📌</h2>
+      <ul>
+        <li>Azure上で自社テナントに構築</li>
+        <li>データは契約企業のAzure環境に保存</li>
+        <li>GPT-4/GPT-3.5やCognitive Searchを利用</li>
+        <li>Teams連携オプションあり</li>
+        <li>認証はAzure Entra IDと連携</li>
+      </ul>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <h2>対象顧客・導入事例 📝</h2>
+      <ul>
+        <li>機密データを守りつつChatGPTを使いたい企業</li>
+        <li>川崎汽船が2023年8月に全社導入</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>価格体系 🔍</h2>
+      <ul>
+        <li>初期導入費用 約200万円～</li>
+        <li>Teams連携 +40万円</li>
+        <li>追加インデックス作成等 1件5万円</li>
+        <li>月額アップデートサービス 20万円～</li>
+        <li>RAG強化版「コンシェルジュ」 年間288万円</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>最新アップデート 📊</h2>
+      <ul>
+        <li>2024年3月 RAG機能強化版提供</li>
+        <li>2023年8月 川崎汽船で全社導入</li>
+        <li>2023年4月 サービス開始</li>
+        <li>営業支援特化型エージェント計画</li>
+      </ul>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <h2>競合比較（国内） 🔗</h2>
+      <ul>
+        <li>exaBase 生成AI: SaaS型、月額900円～</li>
+        <li>PKSHA Communication Cloud: 日本語対話に強み</li>
+        <li>ChatSense: 月額980円/人～、低コスト</li>
+        <li>NewtonX: コンサル付、複数LLM対応</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>競合比較（海外） 🌐</h2>
+      <ul>
+        <li>ChatGPT Enterprise: 高度なセキュリティ、価格は見積り</li>
+        <li>Microsoft 365 Copilot: Office統合、月額約30ドル</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>まとめ ✨</h2>
+      <p>ipricityはAzure上の専用環境で<strong class="keyword">ガバナンス</strong>と<strong class="keyword">社内データ活用</strong>を実現するソリューション。価格は高めだがJBSのサポートとMicrosoft連携の強みがあり、大企業・官公庁に適している。</p>
+    </div>
+  </div>
+</div>
+<footer>出典: ipricity-latest-summary-ja.md</footer>
+</body>
+</html>
